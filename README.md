@@ -4,7 +4,7 @@ Ethereal Tablet - System UI for the GSI Workspace
 
 ---
 
-**TABA** is the GSI's System UI, the main interface for the apps we've created.
+**TABA** is the GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end the TABA server will use the appropriate FAVI module to complete tasks.
 
 > STATUS (VII Augustii MMXXV)  
 Planning stage
