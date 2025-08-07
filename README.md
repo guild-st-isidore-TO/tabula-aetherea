@@ -1,4 +1,4 @@
-# tabula-aetherea
+# Tabula Aetherea (TABA)
 
 Ethereal Tablet - System UI for the GSI Workspace
 
