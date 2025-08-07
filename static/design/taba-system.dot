@@ -1,0 +1,33 @@
+digraph {
+    label = "\nTABA\nSystem and components\nv0.1";
+    node [shape = box;];
+    
+    user -> tabaFrontend;
+    
+    subgraph cluster_0 {
+        label = "FAVI System";
+        color = black;
+        fontcolor = black;
+        penwidth = 2;
+        node [bgcolor = white;];
+        
+        subgraph cluster_1 {
+            label = "TABA System\n(Docker Container)";
+            color = darkmagenta;
+            fontcolor = darkmagenta;
+            bgcolor = grey90;
+            penwidth = 2;
+            node [bgcolor = white;];
+            
+            tabaFrontend -> tabaBackend [color = orange;];
+        }
+        
+        tabaBackend -> extModules;
+    }
+    
+    
+    user [label = "User";];
+    tabaFrontend [label = "TABA\nFront-end";color = orange;];
+    tabaBackend [label = "TABA\nWeb Server";color = blue;];
+    extModules [label = "other FAVI\nmodules";shape=folder];
+}
