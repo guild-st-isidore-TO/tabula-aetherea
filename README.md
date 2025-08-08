@@ -11,7 +11,39 @@ Part of the FAVI System: https://github.com/guild-st-isidore-TO/fabrica-virtuali
 > STATUS (VII Augustii MMXXV)  
 Planning stage
 
-## USE CASES
+## USAGE
+
+### Prerequisites
+
+Docker  
+https://docs.docker.com/get-started/get-docker/
+
+_"Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications."_
+
+### Operating Systems
+
+TABA has been tested on:
+
+- MacOS Ventura 13.2.1
+- Windows 10 Home 22H2
+
+### Running/Deploying the Server
+
+Building docker image
+
+```
+docker compose up -d --build
+```
+
+If successful, UI can be accessed through http://localhost:5173
+
+### Documentation / Resources
+
+- Dockerfiles for Refine: https://github.com/refinedev/dockerfiles
+
+## DESIGN
+
+### Use Cases
 
 FAVI modules will have diverse functionalities, and will use many different configurations of I/O.
 
@@ -28,18 +60,18 @@ Relevant file types
 - MusicDocument = GABC, LY
 - Image = PNG, JPG
 
-## UI DESIGN
+### Ui Design
 
 - There will be one control panel page for each integrated FAVI module
 - There will be one section on that page for each module functionality _(API endpoint)_
 - Every control section will have the appropriate UI element for each necessary parameter
 
-### Information Architecture
+**Information Architecture**
 
 The data models used in the FAVI system can be found in the FAVI repo:  
 https://github.com/guild-st-isidore-TO/fabrica-virtualis/blob/main/static/design/favi-data-models.md
 
-## ARCHITECTURE
+### Architecture
 
 ...
 
