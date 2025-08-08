@@ -34,6 +34,11 @@ Relevant file types
 - There will be one section on that page for each module functionality _(API endpoint)_
 - Every control section will have the appropriate UI element for each necessary parameter
 
+### Information Architecture
+
+The data models used in the FAVI system can be found in the FAVI repo:  
+https://github.com/guild-st-isidore-TO/fabrica-virtualis/blob/main/static/design/favi-data-models.md
+
 ## ARCHITECTURE
 
 ...
