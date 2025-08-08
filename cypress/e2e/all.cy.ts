@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 /// <reference types="../../cypress/support" />
 
-describe("sw-testbed-ui", () => {
+describe("tabula-aetherea", () => {
   const BASE_URL = "http://localhost:5173";
 
   const submitAuthForm = () => {
