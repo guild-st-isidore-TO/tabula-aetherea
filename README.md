@@ -6,10 +6,10 @@ Part of the FAVI System: https://github.com/guild-st-isidore-TO/fabrica-virtuali
 
 ---
 
-**TABA** is the GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end the TABA server will use the appropriate FAVI module to complete tasks.
+> STATUS (VIII Augustii MMXXV)  
+Active Development -- Bootstrapped project by reusing old code, now customizing the UI and slowly integrating the FAVI containers together.
 
-> STATUS (VII Augustii MMXXV)  
-Planning stage
+**TABA** is the GSI's System UI, the main interface for the apps we've created. When users access the TABA front-end the TABA server will use the appropriate FAVI module to complete tasks.
 
 ## USAGE
 
