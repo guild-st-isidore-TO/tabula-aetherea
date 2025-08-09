@@ -1,5 +1,5 @@
 
-FROM refinedev/node:18 AS base
+FROM refinedev/node:22 AS base
 
 FROM base as deps
 
