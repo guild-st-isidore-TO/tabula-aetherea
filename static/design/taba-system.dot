@@ -1,5 +1,5 @@
 digraph {
-    label = "\nTABA\nSystem and components\nv0.1";
+    label = "\nTABA\nSystem and components\nv0.2";
     node [shape = box;];
     
     user -> tabaFrontend;
@@ -22,12 +22,17 @@ digraph {
             tabaFrontend -> tabaBackend [color = orange;];
         }
         
-        tabaBackend -> extModules;
+        tabaBackend -> extModule1;
+        tabaBackend -> extModule2;
+        tabaBackend -> extModule3;
     }
     
     
     user [label = "User";];
     tabaFrontend [label = "TABA\nFront-end";color = orange;];
     tabaBackend [label = "TABA\nWeb Server";color = blue;];
-    extModules [label = "other FAVI\nmodules";shape=folder];
+
+    extModule1 [label = "other FAVI\nmodule";shape=box3d];
+    extModule2 [label = "other FAVI\nmodule";shape=box3d];
+    extModule3 [label = "other FAVI\nmodule";shape=box3d];
 }
